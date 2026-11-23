@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-12T09:51:31.281Z",
+  "source": "https://itunes.apple.com/lookup",
+  "products": {
+    "fypix": {
+      "appStoreId": "6749441709",
+      "locales": {
+        "en": {
+          "country": "us",
+          "trackName": "FyPix: Widget & Live Wallpaper",
+          "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/28/80/b2288054-29b8-180d-99f8-e61e7d1f4b39/Fypix-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/28/80/b2288054-29b8-180d-99f8-e61e7d1f4b39/Fypix-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/us/app/fypix-widget-live-wallpaper/id6749441709?uo=4",
+          "version": "27.0",
+          "currentVersionReleaseDate": "2026-09-18T18:40:52Z"
+        },
+        "zh": {
+          "country": "cn",
+          "trackName": "FyPix：小组件与4K动态壁纸",
+          "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/28/80/b2288054-29b8-180d-99f8-e61e7d1f4b39/Fypix-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/28/80/b2288054-29b8-180d-99f8-e61e7d1f4b39/Fypix-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/cn/app/fypix-%E5%B0%8F%E7%BB%84%E4%BB%B6%E4%B8%8E4k%E5%8A%A8%E6%80%81%E5%A3%81%E7%BA%B8/id6749441709?uo=4",
+          "version": "27.0",
+          "currentVersionReleaseDate": "2026-09-18T18:40:52Z"
+        }
+      }
+    },
+    "mockpaper": {
+      "appStoreId": "6760604896",
+      "locales": {
+        "en": {
+          "country": "us",
+          "trackName": "MockPaper - Wallpaper Mockup",
+          "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/cb/71/0fcb716b-8bd7-307a-6daf-2f0b9a5eff32/Mockpaper-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/cb/71/0fcb716b-8bd7-307a-6daf-2f0b9a5eff32/Mockpaper-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/us/app/mockpaper-wallpaper-mockup/id6760604896?uo=4",
+          "version": "1.2",
+          "currentVersionReleaseDate": "2026-09-07T16:19:46Z"
+        },
+        "zh": {
+          "country": "cn",
+          "trackName": "MockPaper - 壁纸样机生成器",
+          "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/cb/71/0fcb716b-8bd7-307a-6daf-2f0b9a5eff32/Mockpaper-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.jpg",
+          "artworkUrl512": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/cb/71/0fcb716b-8bd7-307a-6daf-2f0b9a5eff32/Mockpaper-0-0-1x_U007ephone-0-1-P3-85-220.png/512x512bb.jpg",
+          "trackViewUrl": "https://apps.apple.com/cn/app/mockpaper-%E5%A3%81%E7%BA%B8%E6%A0%B7%E6%9C%BA%E7%94%9F%E6%88%90%E5%99%A8/id6760604896?uo=4",
+          "version": "1.2",
+          "currentVersionReleaseDate": "2026-09-07T16:19:46Z"
+        }
+      }
+    }
+  }
+}

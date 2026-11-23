@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>macOS 启动台不见了？3 种找回方式与替代方案 | HelloCode</title>
+    <meta name="description" content="macOS 26 之后启动台入口被改掉，很多人找不到应用列表。本文给出 3 种找回方式，并介绍一个把应用库放在光标旁的新方案。" />
+    <link rel="canonical" href="https://hellocode.app/blog/macos-launchpad-missing/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="HelloCode" />
+    <meta property="og:title" content="macOS 启动台不见了？3 种找回方式与替代方案 | HelloCode" />
+    <meta property="og:description" content="macOS 26 之后启动台入口被改掉，很多人找不到应用列表。本文给出 3 种找回方式，并介绍一个把应用库放在光标旁的新方案。" />
+    <meta property="og:url" content="https://hellocode.app/blog/macos-launchpad-missing/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="alternate" type="application/atom+xml" title="HelloCode" href="../../feed.xml" />
+    <link rel="icon" href="../../assets/images/peng-tao-avatar.svg" type="image/svg+xml" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"macOS 启动台不见了？3 种找回方式与替代方案","description":"macOS 26 之后启动台入口被改掉，很多人找不到应用列表。本文给出 3 种找回方式，并介绍一个把应用库放在光标旁的新方案。","inLanguage":"zh-CN","datePublished":"2026-09-21","dateModified":"2026-09-21","author":{"@type":"Person","name":"Peng Tao","url":"https://hellocode.app/about/"},"publisher":{"@type":"Organization","name":"HelloCode","url":"https://hellocode.app/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://hellocode.app/blog/macos-launchpad-missing/"},"keywords":"macOS, 启动台, AppPad","url":"https://hellocode.app/blog/macos-launchpad-missing/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"HelloCode","item":"https://hellocode.app/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://hellocode.app/blog/"},{"@type":"ListItem","position":3,"name":"macOS 启动台不见了？3 种找回方式与替代方案","item":"https://hellocode.app/blog/macos-launchpad-missing/"}]}</script>
+    <link rel="stylesheet" href="../../assets/styles.css?v=blog" />
+    <script src="../../assets/site-runtime.js" defer></script>
+    <script src="../../assets/translate-runtime.js" defer></script>
+  </head>
+  <body class="blog-page">
+    <div class="home-shell">
+      <header class="home-topbar" aria-label="Site header">
+        <div class="home-topbar-inner">
+          <a class="home-brand notranslate" href="../../" data-no-translate>HelloCode</a>
+          <nav class="home-nav" aria-label="Main navigation">
+            <a href="../../">主页</a>
+            <a href="../../projects/">项目</a>
+            <a href="../../blog/" aria-current="page">博客</a>
+            <a href="../../about/">关于</a>
+          </nav>
+          <div class="home-actions" aria-label="Site settings">
+            <button id="theme-toggle" class="home-action-button home-symbol-button notranslate" type="button" aria-label="Toggle dark mode" data-no-translate translate="no">☾</button>
+            <button id="lang-toggle" class="home-action-button notranslate" type="button" aria-label="Switch to English" data-lang-label="EN" data-no-translate translate="no"></button>
+          </div>
+        </div>
+      </header>
+      <main class="blog-main blog-post">
+        <article class="blog-article">
+          <header class="blog-article-header">
+            <h1 class="blog-article-title">macOS 启动台不见了？3 种找回方式与替代方案</h1>
+            <p class="blog-article-meta">
+              <time datetime="2026-09-21">2026年9月21日</time>
+              <span>作者 Peng Tao</span>
+              <span>2 分钟阅读</span>
+              
+            </p>
+            <ul class="blog-item-tags"><li>macOS</li><li>启动台</li><li>AppPad</li></ul>
+          </header>
+          <div class="blog-content">
+<p>升级到 macOS 26 之后，很多人的第一个反应是：<strong>启动台去哪了</strong>。它没有被删掉，只是入口和呈现方式变了，原来的肌肉记忆突然失效。</p>
+<p>这篇写清楚三件事：现在怎么打开应用列表、原来的全屏启动台还能不能回来、以及如果都不顺手该怎么办。</p>
+<h2>一、先确认启动台还在</h2>
+<p>大部分情况下启动台本身仍然可访问，只是入口换了位置。先按顺序试：</p>
+<ol>
+<li>触控板四指捏合（或张开），这是最接近旧习惯的手势。</li>
+<li>打开「访达」→「应用程序」，所有应用都在这里。</li>
+<li>用 <code>聚焦搜索</code>（Command + 空格）直接输应用名。</li>
+</ol>
+<p>如果这三步里有任意一步能稳定打开网格视图，说明系统自带的能力还在，只是你更习惯以前那种<strong>全屏、可翻页、可建文件夹</strong>的启动台。</p>
+<h2>二、想要回原来的全屏启动台，有三个思路</h2>
+<ul>
+<li><strong>等系统设置里的开关</strong>：部分版本把入口藏在「系统设置 → 桌面与程序坞」里，值得翻一遍。</li>
+<li><strong>用 Spotlight 替代</strong>：搜索够快，但不能像启动台那样按页摆放、拖拽分组。</li>
+<li><strong>装一个第三方启动台</strong>：这是目前最接近原来体验的方式，代价是多一个常驻应用。</li>
+</ul>
+<h2>三、替代方案的核心差别在哪</h2>
+<p>选第三方启动台时，真正影响日常使用的是这几件事，而不是界面好不好看：</p>
+<ol>
+<li><strong>能不能扫描到全部应用</strong>，包括放在自定义目录里的。</li>
+<li><strong>文件夹与拖拽排序</strong>是否跟原生一样顺手。</li>
+<li><strong>唤起方式</strong>是否够快：键盘、Dock，还是触控板手势。</li>
+<li><strong>是否常驻内存</strong>，会不会拖慢机器。</li>
+</ol>
+<p>我们在做的 <a href="/apppad/">AppPad</a> 换了个思路：不要求你先回到桌面，而是把应用库按场景分进分类、放在光标旁，用快捷键、菜单栏或 Dock 唤起；想按页摆放图标时，它也有网格视图（Pro），文件夹、拖拽排序与键盘导航都在。它目前还在开发中，<a href="/apppad/">项目页</a> 有完整的功能说明。</p>
+<h2>小结</h2>
+<p>启动台没有消失，只是入口变了。先确认系统自带方式能不能满足你；如果不行，再考虑替代方案——决定体验的从来不是视觉，而是扫描范围、整理方式和唤起速度。</p>
+          </div>
+          <footer class="blog-article-footer">
+            <a class="ui-link" href="../../blog/">返回文章列表</a>
+          </footer>
+        </article>
+      </main>
+      <footer class="home-bottombar" aria-label="Site footer">
+        <div class="home-bottombar-inner">
+          <div class="home-footer-brand" data-no-translate>HelloCode</div>
+          <p class="home-copyright">©2026 <span data-no-translate>HelloCode</span> 保留所有权利</p>
+          <div class="home-symbols" aria-label="Contact">
+            <a class="footer-social-link" href="https://github.com/pengtao199" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.8 1.3 3.48.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.65 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.62-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" /></svg>
+            </a>
+            <a class="footer-social-link" href="mailto:hello@hellocode.app" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3z" fill="none" /><path d="m3.5 6.5 8.5 6 8.5-6M3 18.5h18" fill="none" /></svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <title>HelloCode</title>
+  <subtitle>记录产品背后的做法与经验。</subtitle>
+  <link href="https://hellocode.app/blog/" />
+  <link rel="self" href="https://hellocode.app/feed.xml" />
+  <updated>2026-09-21T00:00:00Z</updated>
+  <id>https://hellocode.app/</id>
+  <author><name>Peng Tao</name></author>
+  <entry>
+    <title>macOS 启动台不见了？3 种找回方式与替代方案</title>
+    <link href="https://hellocode.app/blog/macos-launchpad-missing/" />
+    <id>https://hellocode.app/blog/macos-launchpad-missing/</id>
+    <updated>2026-09-21T00:00:00Z</updated>
+    <summary>macOS 26 之后启动台入口被改掉，很多人找不到应用列表。本文给出 3 种找回方式，并介绍一个把应用库放在光标旁的新方案。</summary>
+    <content type="html">&lt;p&gt;升级到 macOS 26 之后，很多人的第一个反应是：&lt;strong&gt;启动台去哪了&lt;/strong&gt;。它没有被删掉，只是入口和呈现方式变了，原来的肌肉记忆突然失效。&lt;/p&gt;
+&lt;p&gt;这篇写清楚三件事：现在怎么打开应用列表、原来的全屏启动台还能不能回来、以及如果都不顺手该怎么办。&lt;/p&gt;
+&lt;h2&gt;一、先确认启动台还在&lt;/h2&gt;
+&lt;p&gt;大部分情况下启动台本身仍然可访问，只是入口换了位置。先按顺序试：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;触控板四指捏合（或张开），这是最接近旧习惯的手势。&lt;/li&gt;
+&lt;li&gt;打开「访达」→「应用程序」，所有应用都在这里。&lt;/li&gt;
+&lt;li&gt;用 &lt;code&gt;聚焦搜索&lt;/code&gt;（Command + 空格）直接输应用名。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果这三步里有任意一步能稳定打开网格视图，说明系统自带的能力还在，只是你更习惯以前那种&lt;strong&gt;全屏、可翻页、可建文件夹&lt;/strong&gt;的启动台。&lt;/p&gt;
+&lt;h2&gt;二、想要回原来的全屏启动台，有三个思路&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;等系统设置里的开关&lt;/strong&gt;：部分版本把入口藏在「系统设置 → 桌面与程序坞」里，值得翻一遍。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;用 Spotlight 替代&lt;/strong&gt;：搜索够快，但不能像启动台那样按页摆放、拖拽分组。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;装一个第三方启动台&lt;/strong&gt;：这是目前最接近原来体验的方式，代价是多一个常驻应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;三、替代方案的核心差别在哪&lt;/h2&gt;
+&lt;p&gt;选第三方启动台时，真正影响日常使用的是这几件事，而不是界面好不好看：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;能不能扫描到全部应用&lt;/strong&gt;，包括放在自定义目录里的。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文件夹与拖拽排序&lt;/strong&gt;是否跟原生一样顺手。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;唤起方式&lt;/strong&gt;是否够快：键盘、Dock，还是触控板手势。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;是否常驻内存&lt;/strong&gt;，会不会拖慢机器。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我们在做的 &lt;a href=&quot;/apppad/&quot;&gt;AppPad&lt;/a&gt; 换了个思路：不要求你先回到桌面，而是把应用库按场景分进分类、放在光标旁，用快捷键、菜单栏或 Dock 唤起；想按页摆放图标时，它也有网格视图（Pro），文件夹、拖拽排序与键盘导航都在。它目前还在开发中，&lt;a href=&quot;/apppad/&quot;&gt;项目页&lt;/a&gt; 有完整的功能说明。&lt;/p&gt;
+&lt;h2&gt;小结&lt;/h2&gt;
+&lt;p&gt;启动台没有消失，只是入口变了。先确认系统自带方式能不能满足你；如果不行，再考虑替代方案——决定体验的从来不是视觉，而是扫描范围、整理方式和唤起速度。&lt;/p&gt;</content>
+  </entry>
+</feed>

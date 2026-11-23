@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppPad — 光标旁的 App 抽屉 | HelloCode</title>
+    <meta name="description" content="AppPad 把应用库放到光标旁：按场景分进分类，用快捷键、菜单栏或 Dock 唤起，支持拼音首字母搜索；也能切换到经典图标网格（Pro）。macOS 26+，本地优先，不联网。" />
+    <link rel="icon" href="../../assets/images/AppPad-macOS-Default-1024@1x.png" type="image/png" />
+    <link rel="stylesheet" href="../../assets/styles.css?v=apppad" />
+    <script src="../../assets/site-runtime.js" defer></script>
+    <script src="../../assets/translate-runtime.js" defer></script>
+  </head>
+  <body class="apppad-page">
+    <div class="home-shell">
+      <header class="home-topbar" aria-label="站点顶部栏">
+        <div class="home-topbar-inner">
+          <a class="home-brand notranslate" href="../" data-no-translate>HelloCode</a>
+          <nav class="home-nav" aria-label="主导航">
+            <a href="../">主页</a>
+            <a href="../projects/" aria-current="page">项目</a>
+            <a href="../blog/">博客</a>
+            <a href="../about/">关于</a>
+          </nav>
+          <div class="home-actions" aria-label="站点设置">
+            <button id="theme-toggle" class="home-action-button home-symbol-button notranslate" type="button" aria-label="切换深色模式" data-no-translate translate="no">☾</button>
+            <button id="lang-toggle" class="home-action-button notranslate" type="button" aria-label="Switch to English" data-lang-label="EN" data-no-translate translate="no"></button>
+          </div>
+        </div>
+      </header>
+
+      <main class="product-main">
+        <section class="product-hero" aria-labelledby="apppad-title">
+          <img class="product-hero-icon" src="../../assets/images/AppPad-macOS-Default-1024@1x.png" alt="AppPad" width="160" height="160" fetchpriority="high" />
+          <h1 id="apppad-title" class="product-hero-name notranslate" data-no-translate>AppPad</h1>
+          <p class="product-tagline">光标旁的 App 抽屉</p>
+          <p class="product-subtitle">把 App 按场景分进分类，应用库就放在光标旁。一个快捷键、菜单栏图标或 Dock 图标，面板在指针边展开——不切全屏，不翻 Dock，不打断手头的事。</p>
+          <div class="product-actions" aria-label="下载与了解更多">
+            <span class="ui-button product-cta-pending" aria-disabled="true">即将登陆 Mac App Store</span>
+            <a class="ui-button secondary" href="#pro">查看会员方案</a>
+          </div>
+
+          <dl class="product-specs">
+            <div class="product-spec">
+              <dt>系统要求</dt>
+              <dd>macOS 26 及更高版本</dd>
+            </div>
+            <div class="product-spec">
+              <dt>构建方式</dt>
+              <dd>原生 SwiftUI</dd>
+            </div>
+            <div class="product-spec">
+              <dt>分发</dt>
+              <dd>Mac App Store</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section id="features" class="product-section" aria-labelledby="apppad-features-title">
+          <p class="product-eyebrow">功能</p>
+          <h2 id="apppad-features-title" class="product-section-title">为浏览与唤起而设计</h2>
+          <p class="product-section-lead">从找到应用到打开它，都在光标旁完成。</p>
+
+          <div class="product-feature-grid">
+            <div class="product-feature">
+              <span class="product-feature-index">01</span>
+              <h3 class="product-feature-title">应用库</h3>
+              <p class="product-feature-text">默认打开就是应用库：分类卡片一屏铺开，想找的 App 一眼看见。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">02</span>
+              <h3 class="product-feature-title">分类整理</h3>
+              <p class="product-feature-text">按场景分组：工作、设计、开发。没归组的 App 留在「未归类」，随时收走。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">03</span>
+              <h3 class="product-feature-title">光标旁面板</h3>
+              <p class="product-feature-text">菜单栏图标、Dock 图标或全局快捷键，面板在指针边展开，不离开当前窗口。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">04</span>
+              <h3 class="product-feature-title">拼音搜索</h3>
+              <p class="product-feature-text">输入名称，或直接打拼音首字母：微信 → wx，立刻命中。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">05</span>
+              <h3 class="product-feature-title">自定义网格视图（Pro）</h3>
+              <p class="product-feature-text">想要经典的一屏图标时切到网格：全屏或窗口，分页或连续滚动。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">06</span>
+              <h3 class="product-feature-title">文件夹与拖拽（Pro）</h3>
+              <p class="product-feature-text">把图标拖到一起生成文件夹，自由拖入拖出、排序，布局自动保存。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">07</span>
+              <h3 class="product-feature-title">键盘导航（Pro）</h3>
+              <p class="product-feature-text">方向键选择、Return 打开、Tab 翻页，全程不用碰触控板。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">08</span>
+              <h3 class="product-feature-title">触控板手势（Pro）</h3>
+              <p class="product-feature-text">四指捏合或轻拍，在任意应用里唤出面板；触发方式可配置。</p>
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-index">09</span>
+              <h3 class="product-feature-title">隐藏与动态图标（Pro）</h3>
+              <p class="product-feature-text">隐藏长期不用的 App；Dock 图标跟随当前分类变化，一眼知道在哪一页。</p>
+            </div>
+          </div>
+          <p class="product-features-note">免费版还支持窗口形态、布局导入与导出、自定义扫描目录；界面提供中文与英文。</p>
+        </section>
+
+        <section id="pro" class="product-section" aria-labelledby="apppad-pro-title">
+          <p class="product-eyebrow">会员</p>
+          <h2 id="apppad-pro-title" class="product-section-title">永久解锁，或按年订阅</h2>
+          <p class="product-section-lead">免费下载即可日常使用：应用库、3 个分类、光标旁面板、菜单栏 / Dock / 快捷键唤起、搜索、窗口形态，以及布局导入导出与自定义扫描目录。Pro 解锁自定义网格视图、触控板手势、键盘导航、隐藏应用与动态 Dock 图标。</p>
+
+          <div class="product-plan-grid">
+            <div class="ui-card padded product-plan product-plan-featured">
+              <div class="product-plan-head">
+                <h3 class="product-plan-name">永久解锁</h3>
+                <span class="ui-badge product-plan-tag">推荐</span>
+              </div>
+              <p class="product-plan-desc">一次性购买，长期可用，无需续费。</p>
+            </div>
+            <div class="ui-card padded product-plan">
+              <div class="product-plan-head">
+                <h3 class="product-plan-name">年度订阅</h3>
+              </div>
+              <p class="product-plan-desc">按年付费，可随时取消自动续费。</p>
+            </div>
+          </div>
+
+          <ul class="product-plan-benefits">
+            <li>自定义网格视图：全屏 / 窗口、文件夹、拖拽排序、分页与滚动</li>
+            <li>触控板手势、键盘导航、隐藏应用与动态 Dock 图标</li>
+            <li>分类上限提升到 16 个，后续新增的 Pro 功能持续可用</li>
+            <li>可在同一 Apple 账户的设备上恢复购买，随时在 App Store 账户设置中管理或取消</li>
+          </ul>
+          <p class="product-note">年度方案含 7 天免费试用，试用结束后按年收费；未用完的试用期在购买订阅后失效。具体价格与权益以 App Store 购买页显示为准。购买、续费与退款由 Apple 处理；删除应用不会自动取消订阅。</p>
+        </section>
+
+        <section class="product-section" aria-labelledby="apppad-get-title">
+          <p class="product-eyebrow">即将上线</p>
+          <h2 id="apppad-get-title" class="product-section-title">AppPad 即将登陆 Mac App Store</h2>
+          <div class="product-actions">
+            <span class="ui-button product-cta-pending" aria-disabled="true">敬请期待</span>
+          </div>
+        </section>
+
+        <nav class="product-legal" aria-label="AppPad 协议入口">
+          <a href="./terms">用户协议</a>
+          <a href="./privacy">隐私政策</a>
+        </nav>
+      </main>
+
+      <footer class="home-bottombar" aria-label="站点底部栏">
+        <div class="home-bottombar-inner">
+          <div class="home-footer-brand" data-no-translate>HelloCode</div>
+          <p class="home-copyright">©2026 <span data-no-translate>HelloCode</span> 保留所有权利</p>
+          <div class="home-symbols" aria-label="联系入口">
+            <a class="footer-social-link" href="https://github.com/pengtao199" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.04c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.74.08-.74 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.8 1.3 3.48.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.34-5.47-5.95 0-1.31.47-2.38 1.23-3.22-.12-.3-.53-1.52.12-3.17 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.65 1.65.24 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.62-2.8 5.64-5.48 5.94.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" /></svg>
+            </a>
+            <a class="footer-social-link" href="mailto:apppad@hellocode.app" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3z" fill="none" /><path d="m3.5 6.5 8.5 6 8.5-6M3 18.5h18" fill="none" /></svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
